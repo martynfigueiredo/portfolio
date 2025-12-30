@@ -51,7 +51,11 @@ dev_dependencies:
 flutter_icons:
   android: true
   ios: true
-  image_path: "assets/icons/web-app-manifest-192x192.png"
+  web:
+    image_path: "assets/icons/favicon-96x96.png"
+    adaptive_icon_background: "#FFFFFF"
+    adaptive_icon_foreground: "assets/icons/favicon.svg"
+  image_path: "assets/icons/favicon-96x96.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -94,3 +98,9 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+  assets:
+    - assets/icons/favicon-96x96.png
+    - assets/icons/favicon.svg
+    - assets/icons/web-app-manifest-192x192.png
+    - assets/icons/web-app-manifest-512x512.png
