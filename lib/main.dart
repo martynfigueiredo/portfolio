@@ -102,7 +102,7 @@ class MyHomePage extends StatelessWidget {
                 'LinkedIn',
                 style: TextStyle(
                   color: Colors.blue,
-                  decoration: TextDecoration.underline,
+                  decoration: TextDecoration.none, // Removed underline
                 ),
               ),
             ),
@@ -115,7 +115,7 @@ class MyHomePage extends StatelessWidget {
                 'Github',
                 style: TextStyle(
                   color: Colors.blue,
-                  decoration: TextDecoration.underline,
+                  decoration: TextDecoration.none, // Removed underline
                 ),
               ),
             ),
@@ -128,7 +128,7 @@ class MyHomePage extends StatelessWidget {
                 'Google Developer Profile',
                 style: TextStyle(
                   color: Colors.blue,
-                  decoration: TextDecoration.underline,
+                  decoration: TextDecoration.none, // Removed underline
                 ),
               ),
             ),

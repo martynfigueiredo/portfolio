@@ -1,16 +1,29 @@
-# flutter_web_project
+# Portfolio
 
-A new Flutter project.
+## Description
+This is the portfolio of Martyn Figueiredo, showcasing work as a Site Reliability Engineer. The project is built using Flutter and hosted on Firebase.
 
-## Getting Started
+## Features
+- Light, dark, and system theme modes
+- Links to LinkedIn, GitHub, and Google Developer Profile
+- About page with a welcoming message
 
-This project is a starting point for a Flutter application.
+## Deployment
+The web app is deployed on Firebase Hosting. To deploy:
+1. Run `flutter build web`.
+2. Run `firebase deploy`.
 
-A few resources to get you started if this is your first Flutter project:
+## Build for Android
+To build the APK:
+1. Run `flutter clean`.
+2. Run `flutter build apk`.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Build for Linux
+To enable Linux support:
+1. Run `flutter config --enable-linux-desktop`.
+2. Run `flutter build linux`.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Links
+- [LinkedIn](https://linkedin.com/in/martynfigueiredo)
+- [GitHub](https://github.com/martynfigueiredo)
+- [Google Developer Profile](https://g.dev/martynfigueiredo)
