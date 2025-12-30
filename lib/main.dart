@@ -98,11 +98,14 @@ class MyHomePage extends StatelessWidget {
               onTap: () {
                 launchUrl(Uri.parse('https://linkedin.com/in/martynfigueiredo'), mode: LaunchMode.externalApplication);
               },
-              child: const Text(
-                'LinkedIn',
-                style: TextStyle(
-                  color: Colors.blue,
-                  decoration: TextDecoration.none, // Removed underline
+              child: MouseRegion(
+                cursor: SystemMouseCursors.click,
+                child: const Text(
+                  'LinkedIn',
+                  style: TextStyle(
+                    color: Colors.blue,
+                    decoration: TextDecoration.none, // Removed underline
+                  ),
                 ),
               ),
             ),
@@ -111,11 +114,14 @@ class MyHomePage extends StatelessWidget {
               onTap: () {
                 launchUrl(Uri.parse('https://github.com/martynfigueiredo'), mode: LaunchMode.externalApplication);
               },
-              child: const Text(
-                'Github',
-                style: TextStyle(
-                  color: Colors.blue,
-                  decoration: TextDecoration.none, // Removed underline
+              child: MouseRegion(
+                cursor: SystemMouseCursors.click,
+                child: const Text(
+                  'Github',
+                  style: TextStyle(
+                    color: Colors.blue,
+                    decoration: TextDecoration.none, // Removed underline
+                  ),
                 ),
               ),
             ),
@@ -124,11 +130,14 @@ class MyHomePage extends StatelessWidget {
               onTap: () {
                 launchUrl(Uri.parse('https://g.dev/martynfigueiredo'), mode: LaunchMode.externalApplication);
               },
-              child: const Text(
-                'Google Developer Profile',
-                style: TextStyle(
-                  color: Colors.blue,
-                  decoration: TextDecoration.none, // Removed underline
+              child: MouseRegion(
+                cursor: SystemMouseCursors.click,
+                child: const Text(
+                  'Google Developer Profile',
+                  style: TextStyle(
+                    color: Colors.blue,
+                    decoration: TextDecoration.none, // Removed underline
+                  ),
                 ),
               ),
             ),
