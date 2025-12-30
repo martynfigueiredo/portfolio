@@ -32,7 +32,6 @@ class _MyAppState extends State<MyApp> {
       case ThemeMode.dark:
         return Icons.nightlight_round; // Represented by a moon
       case ThemeMode.system:
-      default:
         return Icons.settings; // Represented by an engine
     }
   }
